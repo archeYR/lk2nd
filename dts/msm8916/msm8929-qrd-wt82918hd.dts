@@ -9,7 +9,7 @@
 	qcom,board-id = <0x1000b 17>;
 	
 	model = "Lenovo Vibe K5 (Wingtech WT82918)";
-	compatible = "wingtech,wt82918", "qcom,msm8929", "lk2nd,device";
+	compatible = "wingtech,wt82918hd", "qcom,msm8929", "lk2nd,device";
 		
 	panel {
 		compatible = "wingtech,wt82918-panel";

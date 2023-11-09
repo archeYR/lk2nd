@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+
+/ {
+	qcom,msm-id = <294 0>;
+	qcom,board-id = <8 0>;
+};
+
+&lk2nd {
+    model = "Lenovo K5 Play";
+    compatible = "lenovo,l38011", "qcom,msm8937";
+    panel {
+        compatible = "lenovo,l38011-panel";
+
+        qcom,mdss_dsi_nt36525_innolux_video {
+            compatible = "lenovo,innolux-nt36525";
+        };
+    };
+};
